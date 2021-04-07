@@ -1,19 +1,28 @@
-.container {
-    background-color: #ffc0cb;
+.container > div {
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid black;
     text-align: center;
 }
 
-.container > div {
-    border: 1px solid black;
-    padding: 3px;
-}
-
-.container > div > div {
-    border: 1px solid white;
-    background-color: #f07f80;
+.back-color {
+    background-color: #ffc0cb;
 }
 
 p {
-    height: 200px;
-    line-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.nested {
+    position: relative;
+    height: 100%;
+    background-color: #f07f80;
+    border: 1px solid white;
+}
+
+
+
