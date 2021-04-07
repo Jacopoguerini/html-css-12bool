@@ -1,0 +1,19 @@
+.container {
+    background-color: #ffc0cb;
+    text-align: center;
+}
+
+.container > div {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.container > div > div {
+    border: 1px solid white;
+    background-color: #f07f80;
+}
+
+p {
+    height: 200px;
+    line-height: 200px;
+}
