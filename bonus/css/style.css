@@ -1,0 +1,12 @@
+div {
+    height: 60px;
+}
+
+.grey {
+    background-color: grey;
+    opacity: 0.9;
+}
+
+.green {
+    background-color: rgb(72, 226, 118);
+}
